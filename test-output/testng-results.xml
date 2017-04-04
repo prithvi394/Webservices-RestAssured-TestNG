@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="2692" started-at="2017-04-02T17:43:26Z" finished-at="2017-04-02T17:43:29Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="2692" started-at="2017-04-02T17:43:26Z" finished-at="2017-04-02T17:43:29Z">
+      <class name="MyCompany.GoogleApi.TestPackage.Example1Test">
+        <test-method status="PASS" signature="setup()[pri:0, instance:MyCompany.GoogleApi.TestPackage.Example1Test@29774679]" name="setup" is-config="true" duration-ms="1932" started-at="2017-04-02T13:43:26Z" finished-at="2017-04-02T13:43:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:MyCompany.GoogleApi.TestPackage.Example2Test@3ffc5af1]" name="setup" is-config="true" duration-ms="90" started-at="2017-04-02T13:43:28Z" finished-at="2017-04-02T13:43:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="T01_StatusCodeTest()[pri:0, instance:MyCompany.GoogleApi.TestPackage.Example1Test@29774679]" name="T01_StatusCodeTest" duration-ms="13" started-at="2017-04-02T13:43:28Z" finished-at="2017-04-02T13:43:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- T01_StatusCodeTest -->
+        <test-method status="PASS" signature="T02_SearchTermTest()[pri:0, instance:MyCompany.GoogleApi.TestPackage.Example1Test@29774679]" name="T02_SearchTermTest" duration-ms="138" started-at="2017-04-02T13:43:28Z" finished-at="2017-04-02T13:43:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- T02_SearchTermTest -->
+        <test-method status="PASS" signature="T03_verifyOnlyFourVideosReturned()[pri:0, instance:MyCompany.GoogleApi.TestPackage.Example1Test@29774679]" name="T03_verifyOnlyFourVideosReturned" duration-ms="1" started-at="2017-04-02T13:43:28Z" finished-at="2017-04-02T13:43:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- T03_verifyOnlyFourVideosReturned -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:MyCompany.GoogleApi.TestPackage.Example2Test@3ffc5af1]" name="afterTest" is-config="true" duration-ms="0" started-at="2017-04-02T13:43:29Z" finished-at="2017-04-02T13:43:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:MyCompany.GoogleApi.TestPackage.Example1Test@29774679]" name="afterTest" is-config="true" duration-ms="0" started-at="2017-04-02T13:43:29Z" finished-at="2017-04-02T13:43:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- MyCompany.GoogleApi.TestPackage.Example1Test -->
+      <class name="MyCompany.GoogleApi.TestPackage.Example2Test">
+        <test-method status="PASS" signature="T01_StatusCodeTest()[pri:0, instance:MyCompany.GoogleApi.TestPackage.Example2Test@3ffc5af1]" name="T01_StatusCodeTest" duration-ms="1" started-at="2017-04-02T13:43:28Z" finished-at="2017-04-02T13:43:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- T01_StatusCodeTest -->
+        <test-method status="PASS" signature="T02_SearchTermTest()[pri:0, instance:MyCompany.GoogleApi.TestPackage.Example2Test@3ffc5af1]" name="T02_SearchTermTest" duration-ms="482" started-at="2017-04-02T13:43:28Z" finished-at="2017-04-02T13:43:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- T02_SearchTermTest -->
+        <test-method status="PASS" signature="T03_verifyOnlyFourVideosReturned()[pri:0, instance:MyCompany.GoogleApi.TestPackage.Example2Test@3ffc5af1]" name="T03_verifyOnlyFourVideosReturned" duration-ms="3" started-at="2017-04-02T13:43:29Z" finished-at="2017-04-02T13:43:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- T03_verifyOnlyFourVideosReturned -->
+      </class> <!-- MyCompany.GoogleApi.TestPackage.Example2Test -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
